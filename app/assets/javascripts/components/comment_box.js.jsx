@@ -1,11 +1,3 @@
-var CommentBox = React.createClass({
-  render: function() {
-    return(
-      <h1>Hello React!</h1>
-    )
-  }
-});
-
 class CommentBox1 extends React.Component {
   constructor(props) {
     super(props);
@@ -14,7 +6,8 @@ class CommentBox1 extends React.Component {
   render() {
     return(
       <div className='commentBox'>
-        Hello, world! I am a CommentBox.{this.props.url}
+        <h1>Hello world!</h1>
+        <p>notice:{this.props.notice}</p>
       </div>
     );
   }

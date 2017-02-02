@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+$ git clone https://github.com/yoshiokaCB/react-rails-sample.git
+$ cd react-rails-sample
+$ bundle
+$ rails s
+```
 
-Things you may want to cover:
+`http://localhost:3000/comments/index`にアクセスしてみてください。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+あとは、`/app/assets/javascript/commponents/` 以下に `xxx.js.jsx` ファイルを作成し、Reactのコードを書いてください。
+erbファイルへの読み込みは `react_component` を使用してください。
